@@ -1,5 +1,5 @@
 Summary:	LCDmod displays anything on a 20x4 backlit LCD
-Summary(pl):	LCDmod wy¶wietla cokolwiek na wy¶wietlaczu LCD 20x4
+Summary(pl):	LCDmod wy¶wietla wszystko na wy¶wietlaczu LCD 20x4
 Name:		lcdmod
 Version:	1.0.2
 Release:	0.1
@@ -12,12 +12,10 @@ URL:		http://lcd-mod.sf.net/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This is kernel module for HD44780-based LCDs. You might be interested
-in lcdproc.
+This is kernel module for HD44780-based LCDs.
 
 %description -l pl
-To jest modul kernela dla LCD opartych na HD44780. Mozesz sie
-zainteresowac projektem lcdproc.
+To jest modu³ kernela dla LCD opartych na HD44780.
 
 %prep
 %setup -q
@@ -31,8 +29,6 @@ rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{/etc/rc.d/init.d,%{_sysconfdir}/lcd-mod}
 
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
-
-# conf files
 
 %clean
 rm -rf $RPM_BUILD_ROOT
