@@ -1,0 +1,10 @@
+--- Makefile.orig	2005-03-13 21:45:53.000000000 +0100
++++ Makefile	2005-03-13 21:47:06.000000000 +0100
+@@ -3,7 +3,6 @@
+ CC=cc
+ 
+ KERNEL_VERSION=$(shell uname -r )
+-KERNEL_VERSION=2.6.4
+ KERNEL_SRC_DIR=/lib/modules/$(KERNEL_VERSION)/build
+ 
+ ifeq "$(shell echo $(KERNEL_VERSION) | cut -d . -f 2)" "6"
