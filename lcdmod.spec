@@ -5,7 +5,7 @@ Version:	1.0.2
 Release:	0.1
 License:	GPL
 Group:		Applications/System
-Source0:	http://dl.sourceforge.net/lcdmod/%{name}-%{version}.tgz
+Source0:	http://lcd-mod.sourceforge.net/dist/%{name}-%{version}.tgz
 # Source0-md5:	762bf7c60841ecf0d41d5479f29cceda
 Patch0:		%{name}-kernel_version.patch
 URL:		http://lcd-mod.sf.net/
@@ -22,13 +22,15 @@ To jest modu³ kernela dla LCD opartych na HD44780.
 %patch0 -p0
 
 %build
-%{__make} CFLAGS="%{rpmcflags}"
+%{__make} \
+	CFLAGS="%{rpmcflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{/etc/rc.d/init.d,%{_sysconfdir}/lcd-mod}
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
