@@ -14,7 +14,7 @@ Group:		Applications/System
 Source0:	http://lcd-mod.sourceforge.net/dist/%{name}-%{version}.tgz
 # Source0-md5:	762bf7c60841ecf0d41d5479f29cceda
 Patch0:		%{name}-kernel_version.patch
-URL:		http://lcd-mod.sf.net/
+URL:		http://lcd-mod.sourceforge.net/
 %{?with_dist_kernel:BuildRequires:	kernel24-headers}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
