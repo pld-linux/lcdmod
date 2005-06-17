@@ -23,7 +23,7 @@ This is kernel module for HD44780-based LCDs, it was written because
 there was no nice way of controlling these displays from a computer
 under Linux, most other software written to control these displays run
 in user space, and/or don't support all the features of the displays.
-Lcdmod allows users to easily intergrate the LCD, in its simplest
+LCDmod allows users to easily intergrate the LCD, in its simplest
 form, into shell scripts, C code, et cetera by simply writing ASCII to
 the device file.
 
@@ -31,8 +31,8 @@ the device file.
 To jest modu³ j±dra dla LCD opartych na HD44780, zosta³ napisany
 poniewa¿ nie by³o ¿adnej przyjemnej metody kontrolowania tych
 wy¶wielaczy pod Linuksem, wiêkszo¶æ innego oprogramowania steruj±cego
-tymi wy¶wielaczami pracowa³a w przestrzeni urzytkownika i/lub nie
-wspiera³a wszystkich cech wy¶wietlaczy. Lcdmod pozwala u¿ytkownikom na
+tymi wy¶wielaczami pracowa³a w przestrzeni u¿ytkownika i/lub nie
+wspiera³a wszystkich cech wy¶wietlaczy. LCDmod pozwala u¿ytkownikom na
 ³atw± integracjê LCD, w najprostszy mo¿liwy sposób do skryptów pow³oki
 czy programów w C poprzez wysy³anie kodów ASCII do pliku urz±dzenia.
 
