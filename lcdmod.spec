@@ -5,7 +5,7 @@
 %bcond_without	dist_kernel	# without distribution kernel
 #
 Summary:	LCDmod - display anything on a up to 40x4 chars backlit LCD
-Summary(pl):	LCDmod - wy∂wietlanie czegokolwiek na wy∂wietlaczu LCD do 40x4 znakÛw
+Summary(pl.UTF-8):   LCDmod - wy≈õwietlanie czegokolwiek na wy≈õwietlaczu LCD do 40x4 znak√≥w
 Name:		lcdmod
 Version:	1.0.2
 Release:	0.1
@@ -27,14 +27,14 @@ LCDmod allows users to easily intergrate the LCD, in its simplest
 form, into shell scripts, C code, et cetera by simply writing ASCII to
 the device file.
 
-%description -l pl
-To jest modu≥ j±dra dla LCD opartych na HD44780, zosta≥ napisany
-poniewaø nie by≥o øadnej przyjemnej metody kontrolowania tych
-wy∂wielaczy pod Linuksem, wiÍkszo∂Ê innego oprogramowania steruj±cego
-tymi wy∂wielaczami pracowa≥a w przestrzeni uøytkownika i/lub nie
-wspiera≥a wszystkich cech wy∂wietlaczy. LCDmod pozwala uøytkownikom na
-≥atw± integracjÍ LCD, w najprostszy moøliwy sposÛb do skryptÛw pow≥oki
-czy programÛw w C poprzez wysy≥anie kodÛw ASCII do pliku urz±dzenia.
+%description -l pl.UTF-8
+To jest modu≈Ç jƒÖdra dla LCD opartych na HD44780, zosta≈Ç napisany
+poniewa≈º nie by≈Ço ≈ºadnej przyjemnej metody kontrolowania tych
+wy≈õwielaczy pod Linuksem, wiƒôkszo≈õƒá innego oprogramowania sterujƒÖcego
+tymi wy≈õwielaczami pracowa≈Ça w przestrzeni u≈ºytkownika i/lub nie
+wspiera≈Ça wszystkich cech wy≈õwietlaczy. LCDmod pozwala u≈ºytkownikom na
+≈ÇatwƒÖ integracjƒô LCD, w najprostszy mo≈ºliwy spos√≥b do skrypt√≥w pow≈Çoki
+czy program√≥w w C poprzez wysy≈Çanie kod√≥w ASCII do pliku urzƒÖdzenia.
 
 %prep
 %setup -q
