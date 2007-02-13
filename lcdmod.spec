@@ -5,7 +5,7 @@
 %bcond_without	dist_kernel	# without distribution kernel
 #
 Summary:	LCDmod - display anything on a up to 40x4 chars backlit LCD
-Summary(pl.UTF-8):   LCDmod - wyświetlanie czegokolwiek na wyświetlaczu LCD do 40x4 znaków
+Summary(pl.UTF-8):	LCDmod - wyświetlanie czegokolwiek na wyświetlaczu LCD do 40x4 znaków
 Name:		lcdmod
 Version:	1.0.2
 Release:	0.1
